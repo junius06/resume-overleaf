@@ -1,0 +1,54 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{settings}
+
+\usepackage{fontspec}
+\usepackage{kotex} % 한글 지원
+
+\name{Joohee}{Kim}
+\tagline{DevOps Engineer}
+
+\photo{2.5cm}{id_photo}
+
+\socialinfo{
+
+	\linkedin{junius06}
+	\github{junius06}\\
+	\smartphone{+82 10-6218-5079}
+	\email{joohee6218@gmail.com}\\
+	% \address{Seoul, South Korea}\\
+	\infos{Born in 1996}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}} % \selectlanguage{english}\today  원래 {\textsc{\today}} 였음
+		{\textsc{Joohee Kim - CV}}
+		{\thepage}
+
+	\input{section_1_headline}
+	\input{section_2_skills}				% Section compétence
+	\input{section_3_experience}		    % Section expérience
+	\input{section_4_langues}				% Section langues
+    \input{section_5_projets}               % Section projects
+	\input{section_6_education}	   			% Section scholarité
+    \input{section_7_certifications}
+    \input{section_8_kdt}	     			% Section kdt
+	%\input{section_interets}				% Section intérêts
+	% \input{section_references} 				% Section références
+
+
+\end{document}
