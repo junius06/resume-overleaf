@@ -20,14 +20,34 @@
 
 \photo{2.5cm}{id_photo}
 
-\socialinfo{
+% \socialinfo{
 
-	\linkedin{junius06}
-	\github{junius06}\\
-	\smartphone{+82 10-6218-5079}
-	\email{joohee6218@gmail.com}\\
-	% \address{Seoul, South Korea}\\
-	\infos{Born in 1996}
+% 	\linkedin{junius06}
+% 	\github{junius06}\\
+% 	\smartphone{+82 10-6218-5079}
+% 	\email{joohee6218@gmail.com}\\
+% 	% \address{Seoul, South Korea}\\
+% 	\infos{Born in 1996}
+% }
+\socialinfo{
+  \begin{tabular}{@{}%
+    p{0.3\linewidth}@{\hspace{0.3em}}p{0.485\linewidth}%
+  @{}}
+    % --- top padding (1행 위 여백) ---
+    \multicolumn{2}{@{}l}{\rule{0pt}{0.9em}}\\[-0.8em]
+
+    % Row 1
+    \linkedin{junius06} &
+    \github{junius06} \\[0.2em]
+
+    % Row 2
+    \smartphone{+82 10-6218-5079} &
+    \email{joohee6218@gmail.com} \\[0.15em]
+
+    % Row 3
+    \address{Seoul, South Korea} &
+    \infos{Born in 1996} \\[-0.2em]
+  \end{tabular}
 }
 
 \begin{document}
